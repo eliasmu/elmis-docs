@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://docbook.org/xml/4.4/dtd/docbook.dtd" []>
+<chapter>
+  <title>The E-LMIS</title>
+  <para>
+      The E-LMIS is a highly flexible, simple and configurable web based Logistics Information Management System. The E-LMIS can be configured in a supply chain of any size. It supports the configuration of multiple program areas to streamline the supply chain processes. 
+    </para>
+    <para>
+      The E-LMIS has been deployed in Zambia, Tanzania, Zanzibar and Most recently in the process of being deployed at the Cot'd Ivouar.
+    </para>
+  <qandaset>
+    <qandadiv>
+      <qandaentry>
+        <question>
+          <para>What is the E-LMIS?</para>
+          <para>The <acronym>E-LMIS</acronym> is an Electronic Logistics Management Information System.  It is an open source, Web based application   that allows large supply chains of medical commodities to manage their logistics function. </para>
+        </question>
+      </qandaentry>
+      <qandaentry>
+        <question>
+          <para>What does it do?</para>
+          <para>The E-LMIS facilitates the filing of periodic stock movement reports, while also providing the capability to request for a certain amount of commodity. The form that any supply chain unit (Facility) fills as part of this process is called Request and Requisition Form. Request and Requisition form is also known as <acronym>R&amp;R</acronym>.</para>
+        </question>
+      </qandaentry>
+      <qandaentry>
+        <question>
+          <para>What happens to my requested Quantity?</para>
+          <para>The requested quantity will be reviewed by supervisors at the district, or regional bureaus. This feature is configurable between different supply chains. The E-LMIS can be configured to pass the requisition through one or more subsequent supervisors. Supervisors will have the opportunity to review the values entered by the facility. Upon reviewing, the supervisor can override the requested quantity by supplying his/her own order quantity. </para>
+        </question>
+      </qandaentry>
+      <qandaentry>
+        <question>
+          <para>What happens after all of the supervisors approve my request?</para>
+          <para>A Request and Requisition form submitted by a facility, after passing through all the supervisory configurations will be converted to order. When a request is converted to order, the order will be exported from the system automatically to be passed to the order fulfillment system. In most countries, these systems are <acronym>ERP</acronym>s. 
+              </para>
+        </question>
+      </qandaentry>
+    </qandadiv>
+  </qandaset>
+</chapter>

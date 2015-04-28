@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://docbook.org/xml/4.4/dtd/docbook.dtd" []>
+<chapter>
+    <title>Integration with other Systems</title>
+    <section>
+        <title>Introduction</title>
+        <para>The E-LMIS is designed to integrate with other systems. There are different modes of integration that the E-LMIS allows. A few of these methods are, 1 - Rest API Integrations, 2 - FTP Integration</para>
+    </section>
+    <section>
+        <title>Rest API</title>
+        <para>Restful web services are used in to facilitate interaction between different systems. The E-LMIS have a number of Rest API web services to allow you to perform different automated functions. </para>
+        <para>To use the Rest APIs an application needs to be able to authenticate with the system. Any user name and password in the system could be used to authenticate for the restful web services. However, the Web APIs will only make data available based on the permissions granted to the user. </para>
+        <para>There are two different categories of Rest APIs in the E-LMIS</para>
+        <section>
+            <title>Lookup Web APIs</title>
+            <para>Lookups are Web APIs that are used to list shared data elements from the E-LMIS. </para>
+            <para>A Swagger API Documentation for all of the web services could be found in the e-LMIS. To access the Swagger UI please go to http://path-to-your-server/public/api-docs/index.html.</para>
+            <note>
+                <para>
+                    The API Documentations should be available to you only after you logged in to the E-LMIS with a valid user name and password in the same browser session. 
+                </para>
+            </note>
+            <figure>
+                <title>Rest Lookup APIs</title>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata width="100%" fileref="../images/rest-lookup-apis.png"/>
+                  </imageobject>
+                </mediaobject>
+              </figure>
+            <para>
+                By clicking on a specific REST API, you will be able to learn more about the expected results from that API. The Swagger documentation of the rest API can be used to view the specification of the API End points as well as to Test the results of API Calls. 
+            </para>
+            <figure>
+                <title>API Documentation Details</title>
+                <mediaobject>
+                  <imageobject>
+                    <imagedata width="100%" fileref="../images/rest-api-facility-list.png"/>
+                  </imageobject>
+                </mediaobject>
+              </figure>
+        </section>
+
+        <section>
+            <title>Work-flow Web APIs</title>
+            <para>Work-Flow Web APIs can be used to post information from other systems. A good example of such a Rest API is the API that could be used to submit Requisitions from SDP version of the E-LMIS</para>
+            <para>
+                Workflow Web APIs could be used submit data to the E-LMIS. There are two Key areas where the E-LMIS is able to accept data from other systems. 1) R&amp;R submission, and 2) Proof of Delivery Submission. 
+
+                Any application built using modern programming platforms will be able to submit R&amp;R or PODs using these web apis. The detail specification of these API end points could be found at the Swagger documentations. 
+            </para>
+            <figure>
+                <title>Workflow Web APIs</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata width="100%" fileref="../images/rest-workflow-api.png" />
+                    </imageobject>
+                </mediaobject>
+                </figure>
+
+        </section>
+        <section>
+            <title>Reporting Web APIs</title>
+            <para>Reporting Web APIs could be used to query the E-LMIS for a period specific report. An example of such a reporting Rest API is Stock Status web API. </para>
+        </section>
+    </section>
+    <section>
+        <title>FTP Based Integrations</title>
+        <para>E-LMIS can export order files and upload them on to an FTP server. For this feature to be activated you will have to do the following configurations. </para>
+        <note>
+            <para>The Current version of the application is capable of exporting Order files in CSV file format. However future versions may be able to support other file formats as well. </para>
+        </note>
+        <para>The first configuration is one that could be done via the E-LMIS UI where you will be able to select which fields need to be included in the CSV file. </para>
+    </section>
+    <section>
+        <title>Shipment File Import (FTP)</title>
+    </section>
+</chapter>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://docbook.org/xml/4.4/dtd/docbook.dtd" []>
+<chapter>
+    <title>Setting Background Information</title>
+    <para>Now that you are done with the E-LMIS, you need to setup some background information to be able to start using the system. These background information include geographical information, list of products and list of facilities. The following list should be used as the order thorugh which you should upload the background infrmation. </para>
+    <para>Note that at this point in time, not all of these background information have an upload routine and or administrative interface to configure. However, You should be able to access the background database to be able to set it up correctly. </para>
+    <para>Particular details of each of the configurations will be presented in the configuration details section. </para>
+    <orderedlist>
+        <listitem>
+            <para>(Back End) Geographic Levels</para>
+        </listitem>
+        <listitem>
+            <para>(Back End) Add Facility Types</para>
+        </listitem>
+        <listitem>
+            <para>(Back End) Add Facility Operators</para>
+        </listitem>
+        <listitem>
+            <para>(Back End) Dosage Units</para>
+        </listitem>
+        <listitem>
+            <para>(Back End) Product Forms</para>
+        </listitem>
+        <listitem>
+            <para>(Back End) Programs</para>
+        </listitem>
+        <listitem>
+            <para>(Admin UI) Create Schedules</para>
+        </listitem>
+    </orderedlist>
+    <para>For more data elemnts that need validation to be uploaded, there is a csv upload feature in the eLMIS. You can use any CSV editor to come up with the country specific lookup information like products, facilities and supervisory nodes. To use this feature you could download the sample csv files from the following URL and modify it to fit the your country setup. https://github.com/OpenLMIS/open-lmis/tree/master/test-data/csv Once you are done with preparing the csv files, please use the following steps to upload the csvs. These steps are necessary because of the dependancies that each lookup has. </para>
+    <orderedlist>
+        <listitem>
+            <para>Upload Geographic Zones</para>
+        </listitem>
+        <listitem>
+            <para>Facilities</para>
+        </listitem>
+        <listitem>
+            <para>Supervisory Nodes</para>
+        </listitem>
+        <listitem>
+            <para>Requisition Groups</para>
+        </listitem>
+        <listitem>
+            <para>Product Category</para>
+        </listitem>
+        <listitem>
+            <para>Product Group</para>
+        </listitem>
+        <listitem>
+            <para>Products</para>
+        </listitem>
+        <listitem>
+            <para>Program Product</para>
+        </listitem>
+        <listitem>
+            <para>Requisition Group</para>
+        </listitem>
+        <listitem>
+            <para>Program Schedule</para>
+        </listitem>
+        <listitem>
+            <para>Requisition Group Members </para>
+        </listitem>
+        <listitem>
+            <para>Supply Nodes</para>
+        </listitem>
+        <listitem>
+            <para>Facility Type to Product Mapping</para>
+        </listitem>
+        <listitem>
+            <para>Programs Supported by Facilities</para>
+        </listitem>
+    </orderedlist>
+    <section>
+        <title>Geographic Levels</title>
+        <para>Geographic levels could be different between different countries. While some countries have 3 levels of geographic zones, others may have more or less levels of geographic zones. A typical setting contains the following levels</para>
+        <para/>
+        <orderedlist>
+            <listitem>
+                <para>Nation</para>
+            </listitem>
+            <listitem>
+                <para>State </para>
+            </listitem>
+            <listitem>
+                <para>Provence </para>
+            </listitem>
+            <listitem>
+                <para>District</para>
+            </listitem>
+        </orderedlist>
+        <orderedlist>
+            <para>Note that the top level of the geographic zone for any country should represent the nation while the lowest level should be where the smallest possible addressable location in the country. Only lowest level of geographic zones will be allowed to have service delivery units.(need to explain this better) </para>
+        </orderedlist>
+    </section>
+    <section>
+        <title>Facility Type</title>
+        <para>Facility type is the type of logistics facility in that will be recorded in the system. While the most common facility types that come to mind are service delivery units like health centers and hospitals, the facility types for the purposes of logistics management could also contain warehouses at the state level, Provence logistics units and district warehouses (if they are available)</para>
+    </section>
+</chapter>

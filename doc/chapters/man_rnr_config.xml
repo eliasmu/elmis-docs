@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. -->
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://docbook.org/xml/4.4/dtd/docbook.dtd" []>
+<chapter>
+  <title>Report and Requisition</title>
+  <para>
+    Report and Requisitions are the core practice of any Pull Logistics system. In a pull supply chain, the movement of stock is driven by request and reporting submitted by the pulling logistics unit. In the E-LMIS, this logistics unit is the service delivery unit (the Health Facility).
+
+    The E-LMIS is designed to be configurable for different countries and different program implementations. To Acheive this, the E-LMIS has features to configure the report and requision form. 
+  </para>
+  <note>
+    <para>
+      Report and Requsition is also known as "R&amp;R"
+    </para>
+  </note>
+  <para>
+            To configure the R&amp;R Template for a given program area, please go to Administration -&gt; Configure -&gt; R&amp;R Template
+  </para>
+  
+  <figure>
+    <title>R&amp;R Template Configuration</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata width="100%" fileref="../images/configure-rnr.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <para>
+      From the screen that was displayed, please select a program that you would like to customize. 
+  </para>
+  <para>
+    A program could be configured as a "pull logistics program" or a "push logistics" program. 
+    The fundamental difference between these two types of programs is that pull program functions by the Service Delivery Unit (SDUs) sending a reqeust and requisition form. On the other hand, in a push program, SDUs are expected to be fulfilled by the Warehouses based on Formula's such as demographics based estimate instead of the requests from the service Delivery Units.
+  </para>
+  <note>
+    <para>
+      Only "pull" programs are displayed in the E-LMIS R&amp;R Template configuraiton page.
+    </para> 
+  </note>
+  <figure>
+    <title>R&amp;R Template Configuration Detail</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata width="100%" fileref="../images/configure-rnr-detail.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <para>
+    The R&amp;R Template Configuration detail page allows you to decide which columns are applicable for a specific program. You can also use this page to decide on and arrange the order of the Report and Requisition columns. 
+  </para>
+</chapter>

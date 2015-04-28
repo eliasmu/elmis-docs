@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://docbook.org/xml/4.4/dtd/docbook.dtd" []>
+<chapter>
+    <title>Requisition Work-flow</title>
+    <section>
+        <title>Introduction</title>
+    <para>One of the main work-flows supported in the E-LMIS is the requisitions work flow. Requisitions. </para>
+    <para>The requisition work-flow contains the following key concepts and is configurable to be used in different settings depending on the existing shape of the supply chain. This section attempts to explain the typical configuration of the requisitions module. </para>
+    </section>
+    <section>
+        <title>Initiating a requisition</title>
+        <para>A requisition can be initiated by any one who has a create rnr permission. In typical settings, a person working at the health facility will have an initiate rnr permission. </para>
+        <para>A store man can take as much time to complete the data entry before the requisition is available for review by the person in charge of the health facility. </para>
+    </section>
+    <section>
+        <title>Authorize a requisition</title>
+        <para>While a store man can initiate a requisition, another user at the facility could have a more powerful permission to authorize the request that is coming from the store man. A senior store or a person in charge of the health facility will be able to review the requisition initiated and submitted by the store man. </para>
+        <para>Once the authorization is completed, the request will be sent to the first supervisory node (typically a district) for approval</para>
+    </section>
+    <section>
+        <title>Approval of a requisition</title>
+        <para>A district user will be able to navigate to requisitions -&gt; Approval page to be able to approve the requisition. </para>
+        <para>Once at this page, he/she will be able to select the requisition which they would like to approve. by clicking the requisition of interest, the district supervisor will be able to open the details of the requisition and be able to view what the facility had requested. </para>
+        <para>If the district supervisor </para>
+    </section>
+</chapter>

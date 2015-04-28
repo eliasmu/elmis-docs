@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://docbook.org/xml/4.4/dtd/docbook.dtd" []>
+<chapter>
+    <title>Roles, Rights and User Permissions</title>
+    <para>
+    	The E-LMIS has a flexible mechanism to configure Roles and thier associated rights. The E-LMIS has over 50 Right in 5 Categories. Any combination of rights from one group could be made into a specific role. 
+    </para>
+    <para>
+    	Users can be granted permission to any role in the system. However, different types of roles may have
+    </para>
+</chapter>

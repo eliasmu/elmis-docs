@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://docbook.org/xml/4.4/dtd/docbook.dtd" []>
+<chapter>
+  <title>Server Configuration</title>
+  <section>
+    <title>Setting Your Server</title>
+    <para>The E-LMIS has been tested in a number of different linux settings.
+            Most commonly, the E-LMIS has been deployed on the cloud Setting.
+            Getting your server up and running in the cloud environment is fairly straight forward process.
+            The following simple step by step process could be used to configure your linux server environment.
+        </para>
+    <orderedlist>
+      <listitem>
+        <para>Install Tomcat 7 or above</para>
+      </listitem>
+      <listitem>
+        <para>Install Postgres 9 or above</para>
+      </listitem>
+      <listitem>
+        <para>Download the war file from the following URL</para>
+      </listitem>
+      <listitem>
+        <para>Deploy the war file and enjoy</para>
+      </listitem>
+    </orderedlist>
+    <note>
+      <para>
+                For best result with your configuration, we recommend that you configure your tomcat server behind an apache server.
+                You could configure apache2 to communicate with the tomcat server using the AJP protocol.
+            </para>
+    </note>
+  </section>
+  <section>
+    <title>Optimizing your server</title>
+    <para>The following tips could be used to optimize the performance of your E-LMIS configuraiton.</para>
+    <para>
+                        Setup Apache to put an expires header on HTML, CSS and Javascript files.
+                        This tells the Browser to use it&apos;s own cache for a majority of the static files in the application.
+                        This setting reduces the size of files that have to be transported to the client machine every time a page is opened.
+                    </para>
+    <para>
+                        Add a deflate header in your apache configuration for JSON files to be comressed using GZIP.
+                    </para>
+  </section>
+</chapter>
